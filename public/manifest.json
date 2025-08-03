@@ -1,0 +1,12 @@
+{
+  "name": "DM Screen",
+  "version": "0.0.1",
+  "manifest_version": 1,
+  "action": {
+    "title": "DM Screen",
+    "icon": "/icon.svg",
+    "popover": "/",
+    "height": 600,
+    "width": 1200
+  }
+}
