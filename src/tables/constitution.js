@@ -13,7 +13,7 @@ export const constitution = () => {
       </thead>
       <tbody>
         <tr>
-          <td>10 or half of the damage taken.</td>
+          <td>10 or half of the damage taken. (Whichever is higher)</td>
           <td>After taking damage while maintaining concentration spell.</td>
         </tr>
       </tbody>

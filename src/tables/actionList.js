@@ -13,7 +13,7 @@ export const actionList = () => {
       <tbody>
         <tr>
           <td>Attack</td>
-          <td>Make a melee or ranged attack. See the attacks section for more details.</td>
+          <td>Make a melee or ranged attack.</td>
         </tr>
         <tr>
           <td>Cast</td>
@@ -33,7 +33,7 @@ export const actionList = () => {
         </tr>
         <tr>
           <td>Grapple</td>
-          <td>(1 melee attack) You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check. If you win the contest, you grapple the target.</td>
+          <td>(1 melee attack) You make an Athletics check contested by the target's Athletics or Acrobatics check. If you win the contest, you grapple the target.</td>
         </tr>
          <tr>
           <td>Help</td>
@@ -41,7 +41,7 @@ export const actionList = () => {
         </tr>
         <tr>
           <td>Hide</td>
-          <td>You make a Dexterity (Stealth) check in an attempt to become hidden. While hidden you have advantage on attacks and attacks against you have disadvantage.</td>
+          <td>You make a Stealth check in an attempt to become hidden. While hidden you have advantage on attacks and attacks against you have disadvantage.</td>
         </tr>
         <tr>
           <td>Ready</td>
@@ -49,11 +49,11 @@ export const actionList = () => {
         </tr>
         <tr>
           <td>Search</td>
-          <td>You make a Wisdom (Perception) check or Intelligence (Investigation) check to find something.</td>
+          <td>You make a Perception check or Investigation check to find something.</td>
         </tr>
         <tr>
           <td>Shove</td>
-          <td>(1 melee attack) You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check. If you win the contest, you either knock the target prone or push it 5 feet away from you.</td>
+          <td>(1 melee attack) You make an Athletics check contested by the target's Athletics or Acrobatics check. If you win the contest, you either knock the target prone or push it 5 feet away from you.</td>
         </tr>
         <tr>
           <td>Use a magic Item</td>

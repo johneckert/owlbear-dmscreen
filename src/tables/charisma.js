@@ -4,7 +4,7 @@ export const charisma = () => {
   charisma.innerHTML = `
     <h2>Charisma</h2>
     <h3>Deception</h3>
-    <p>Deception checks measure a character's ability to deceive others through lies, misdirection, or disguise. The DM might call for a Deception check when a character attempts to con someone, adopt a disguise, or otherwise mislead others.</p>
+    <p>Measures a character's ability to deceive others through lies, misdirection, or disguise. The DM might call for a Deception check when a character attempts to con someone, adopt a disguise, or otherwise mislead others.</p>
     <table class="text">
       <thead>
         <tr>
@@ -20,7 +20,7 @@ export const charisma = () => {
       </tbody>
     </table>
     <h3>Intimidation</h3>
-    <p>Intimidation checks measure a character's ability to influence others through threats, coercion, or displays of strength. The DM might call for an Intimidation check when a character attempts to scare someone, assert dominance, or otherwise force their will upon others.</p>
+    <p>Measures a character's ability to influence others through threats, coercion, or displays of strength. The DM might call for an Intimidation check when a character attempts to scare someone, assert dominance, or otherwise force their will upon others.</p>
     <table class="text">
       <thead>
         <tr>
@@ -48,7 +48,7 @@ export const charisma = () => {
       </tbody>
     </table>
     <h3>Performance</h3>
-    <p>Performance checks measure a character's ability to entertain or impress others through artistic expression, such as music, dance, or storytelling. The DM might call for a Performance check when a character attempts to captivate an audience, convey emotion, or create a memorable experience.</p>
+    <p>Measures a character's ability to entertain or impress others through artistic expression, such as music, dance, or storytelling. The DM might call for a Performance check when a character attempts to captivate an audience, convey emotion, or create a memorable experience.</p>
     <table class="text">
       <thead>
         <tr>
@@ -76,7 +76,7 @@ export const charisma = () => {
       </tbody>
     </table>
      <h3>Persuasion</h3>
-    <p>Persuasion checks measure a character's ability to convince others through argument, charm, or social graces. The DM might call for a Persuasion check when a character attempts to sway someone's opinion, negotiate a deal, or influence a group.</p>
+    <p>Measures a character's ability to convince others through argument, charm, or social graces. The DM might call for a Persuasion check when a character attempts to sway someone's opinion, negotiate a deal, or influence a group.</p>
     <table class="text">
       <thead>
         <tr>

@@ -156,6 +156,10 @@ h3, th {
   text-align: left;
 }
 
+.card ol {
+  padding-left: 1rem;
+}
+
 .text, .text * {
   text-align: left !important;
 }

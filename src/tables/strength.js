@@ -4,7 +4,7 @@ export const strength = () => {
   strength.innerHTML = `
     <h2>Strength</h2>
     <h3>Athletics</h3>
-    <p>Strength (Athletics) checks measure physical prowess in activities such as climbing,
+    <p>Measures physical prowess in activities such as climbing,
     jumping, and swimming. The DM might also call for an Athletics check when a character attempts
     to grapple a creature or perform some other action.</p>
     <table class="text">
@@ -29,7 +29,7 @@ export const strength = () => {
         </tr>
         <tr>
           <td>Very Hard</td>
-          <td>Slippery wall; Stormy waters; Clear obstacle while jumping</td>
+          <td>Slippery wall; Stormy waters; Clear obstacle while jumping.</td>
         </tr>
       </tbody>
     </table>

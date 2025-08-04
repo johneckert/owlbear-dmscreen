@@ -13,11 +13,11 @@ export const outdoorVisibility = () => {
       <tbody>
         <tr>
           <td>Clear day, no obstructions</td>
-          <td>2 mi</td>
+          <td>2 mi.</td>
         </tr>
         <tr>
           <td>Rain</td>
-          <td>1 mi</td>
+          <td>1 mi.</td>
         </tr>
         <tr>
           <td>Fog</td>

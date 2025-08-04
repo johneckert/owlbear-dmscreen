@@ -13,7 +13,7 @@ export const conditions = () => {
       <tbody>
         <tr>
           <td>Blinded</td>
-          <td>Automatically fail any check requiring sight. Disadvantage on attack rolls. Attackers have advantage.',</td>
+          <td>Automatically fail any check requiring sight. Disadvantage on attack rolls. Attackers have advantage.</td>
         </tr>
         <tr>
           <td>Charmed</td>
@@ -25,7 +25,16 @@ export const conditions = () => {
         </tr>
         <tr>
           <td>Exhaustion</td>
-          <td>1: Disadvantage on ability checks; 2: Half Speed; 3: Disadvantage on attack rolls and saving throws; 4: HP Max halved; 5: Speed reduced to 0; 6: Death</td>
+          <td>
+            <ol>
+              <li>Disadvantage on ability checks.</li>
+              <li>Speed is halved.</li>
+              <li>Disadvantage on attack rolls and saving throws.</li>
+              <li>Max HP is halved.</li>
+              <li>Speed is reduced to 0.</li>
+              <li>Death.</li>
+            </ol>
+          </td>
         </tr>
         <tr>
           <td>Falling</td>
@@ -35,13 +44,13 @@ export const conditions = () => {
           <td>Frightened</td>
           <td>A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight. The creature can't willingly move closer to the source of its fear.</td>
         </tr>
-         <tr>
+        <tr>
           <td>Grappled</td>
           <td>A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed. The condition ends if the grappler is incapacitated (see the condition). The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunderwave spell.</td>
         </tr>
         <tr>
           <td>Hidden</td>
-          <td>When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly. When a creature can't see you, you have advantage on attack rolls against it. If you are hidden–both unseen and unheard when you make an attack, you give away your location when the attack hits or misses.</td>
+          <td>When you attack a target that you can't see, you have disadvantage on the attack roll. If the target isn't in the location you targeted, you automatically miss. When a creature can't see you, you have advantage on attack rolls against it. If you are hidden when you make an attack, you give away your location when the attack hits or misses.</td>
         </tr>
         <tr>
           <td>Incapacitated</td>
@@ -65,7 +74,7 @@ export const conditions = () => {
         </tr>
         <tr>
           <td>Prone</td>
-          <td>A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition. The creature has disadvantage on attack rolls. An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</td>
+          <td>A prone creature's only movement option is to crawl, unless it uses half its movement to stand, thereby ending the condition. The creature has disadvantage on attack rolls. An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</td>
         </tr>
          <tr>
           <td>Restrained</td>
