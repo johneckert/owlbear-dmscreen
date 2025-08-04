@@ -6,7 +6,7 @@ export const audibleDistance = () => {
     <table>
       <thead>
         <tr>
-          <th>Description</th>
+          <th class="text">Description</th>
           <th>Distance</th>
         </tr>
       </thead>

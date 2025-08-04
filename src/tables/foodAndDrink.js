@@ -6,7 +6,7 @@ export const foodAndDrink = () => {
     <table>
       <thead>
         <tr>
-          <th>Item</th>
+          <th class="text">Item</th>
           <th>Cost</th>
         </tr>
       </thead>

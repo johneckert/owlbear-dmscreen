@@ -6,7 +6,7 @@ export const servicesAndTransportation = () => {
     <table>
       <thead>
         <tr>
-          <th>Service</th>
+          <th class="text">Service</th>
           <th>Cost</th>
         </tr>
       </thead>

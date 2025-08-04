@@ -6,7 +6,7 @@ export const objectHP = () => {
     <table>
       <thead>
         <tr>
-          <th>Size</th>
+          <th class="text">Size</th>
           <th>Fragile</th>
           <th>Resilient</th>
         </tr>

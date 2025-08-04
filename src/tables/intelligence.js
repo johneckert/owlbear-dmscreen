@@ -3,24 +3,14 @@ export const intelligence = () => {
   intelligence.classList.add('card', 'half-screen');
   intelligence.innerHTML = `
     <h2>Intelligence</h2>
-     <table class="text">
+    <div class="definition-list">
+      <p class="definition"><span>Arcana:</span> Measures a character's knowledge of magic, magical creatures, and magical phenomena.</p>
+      <p class="definition"><span>History:</span> Measures a character's knowledge of historical events, figures, and cultures.</p>
+      <p class="definition"><span>Nature:</span> Measures a character's knowledge of the natural world, including plants, animals, and geography.</p>
+      <p class="definition"><span>Religion:</span> Measures a character's knowledge of deities, religious practices, and religious lore.</p>
+    </div> 
+    <table class="text">
       <thead>
-        <tr>
-          <th>Skill</th>
-          <th>Description</th>
-        </tr>
-          <tr>
-          <th>History</th>
-          <th>historical events, old kingdoms, legendary people.</th>
-        </tr>
-          <tr>
-          <th>Nature</th>
-          <th>Terrain, plants and animals.</th>
-        </tr>
-          <tr>
-          <th>Religion</th>
-          <th>Deities, rites and prayers, holy symbols.</th>
-        </tr>
         <tr>
           <th>Difficulty</th>
           <th>Examples</th>

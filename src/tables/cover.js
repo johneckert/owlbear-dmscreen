@@ -6,7 +6,7 @@ export const cover = () => {
     <table>
       <thead>
         <tr>
-          <th>Cover</th>
+          <th class="text">Cover</th>
           <th>Effect</th>
         </tr>
       </thead>

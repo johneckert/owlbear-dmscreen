@@ -6,7 +6,7 @@ export const objectAC = () => {
     <table>
       <thead>
         <tr>
-          <th>Substance</th>
+          <th class="text">Substance</th>
           <th>AC</th>
         </tr>
       </thead>

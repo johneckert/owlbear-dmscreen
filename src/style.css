@@ -1,63 +1,52 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-h2 {
-  font-size: 1.5em;
-  line-height: 1.2;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background: transparent;
 }
 
 #app {
   position: relative;
-  margin: 0;
-  padding: 1em 0;
+  overflow-x: hidden;
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
-  background-color: #4e4e4e;
 }
 
 #container {
-  position: relative;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   overflow-x: hidden;
-  gap: 1em 1em;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
+  gap: 2em 2em;
+  height: calc(100vh - 2em);
+  width: calc(100vw - 2em);
+  padding: 1em;
 }
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: rgb(238, 153, 255)
+}
+
+h3, th {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-wrap: nowrap;
+}
+
 
 .card {
   display: flex;
@@ -65,67 +54,106 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: flex-start;
-  width: 30%;
-  padding: 0.4em;
+  padding: 0 2em 2em 2em;
   border-radius: 8px;
-  font-size: 0.5em;
-  background-color: #ffffff;
+  width: calc(100vw / 3 - 6em);
+  background-color: rgba(30, 34, 49, 0.75);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
               rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
-.card.notepad {
-  padding: 0.5em;
+.card.half-screen {
+  width: calc(50% - 5em);
 }
+
+
 
 .card.notepad > textarea {
   resize: none;
+  background-color: rgba(30, 34, 49, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+              rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border: 1px solid #ddd;
+  color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
   box-sizing: border-box;
   border: none;
+  border-radius: 8px;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  margin-bottom: 0.5rem;
 
+}
+
+.card.notepad > textarea:focus {
+  outline: none !important;
+  border: 1px solid rgb(238, 153, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+              rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .card > h2 {
   margin: 1em auto;
 }
+
+.card > h3 {
+  margin: 0 auto;
+  color: rgb(255, 255, 255)
+}
+
+.card > h3:not(:nth-child(2)) {
+  margin-top: 2em;
+}
+
+.card p {
+  padding: 0 2rem 1rem 2rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card > .definition-list {
+  position: relative;
+  width: calc(100% - 2rem);
+  margin-top: 2rem;
+  margin-bottom: 2em;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.card > .definition-list > p {
+  margin: 0;
+  padding: 0;
+}
+
+.card > .definition-list > p > span {
+  font-weight: 500;
+  color: rgb(238, 153, 255)
+}
+
 .card > table {
   width: 100%;
   border-collapse: collapse;
 }
-.card > table th,
-.card > table td {
-  padding: 0.4em 1.5em;
+.card th,
+.card td {
+  padding: 0.5rem 1rem;
   text-align: center;
 }
 
-.card > table td {
-  border: 1px solid #ddd;
+.card th {
+  color: rgba(255, 255, 255, 0.7)
 }
 
-
-.card > table th {
-  font-weight: 600;
+.card td {
+  border: 1px solid rgb(96, 103, 112);
+  font-weight: 400;
 }
 
-.card > table tr > td:first-child {
+.card td:first-child {
   text-align: left;
-}
-
-.card.two-span {
-  width: calc(66% - 1em);
-}
-.card.three-span {
-  width: calc(100% - 4em) ;
-}
-
-.card.half-screen {
-  width: calc(50% - 6em);
 }
 
 .text, .text * {
@@ -133,23 +161,32 @@ body {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  margin: 1em 0;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  transition: border-color 0.25s;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(187, 153, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+  outline: 0px;
+  border-width: 0px;
+  border-radius: 16px;
+  margin: 0px;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+    text-decoration: none;
+    background-color: rgb(130, 107, 178);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
 }
 
 .button-container {
@@ -157,17 +194,4 @@ button:focus-visible {
   justify-content: space-between;
   width: 100%;
   margin-top: 1em;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

@@ -1,6 +1,6 @@
 import './style.css'
 import { travelPace } from './tables/travelPace';
-import { servicesAndTransportation } from './tables/servicesAndtransportation';
+import { servicesAndTransportation } from './tables/servicesAndTransportation';
 import { foodAndDrink } from './tables/foodAndDrink';
 import { objectHP } from './tables/objectHP';
 import { objectAC } from './tables/objectAC';

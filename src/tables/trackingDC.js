@@ -6,7 +6,7 @@ export const trackingDC = () => {
     <table>
       <thead>
         <tr>
-          <th>Ground Conditions</th>
+          <th class="text">Ground Conditions</th>
           <th>DC</th>
         </tr>
       </thead>

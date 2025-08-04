@@ -6,7 +6,7 @@ export const settingDC = () => {
     <table>
       <thead>
         <tr>
-          <th>Difficulty</th>
+          <th class="text">Difficulty</th>
           <th>DC</th>
         </tr>
       </thead>
