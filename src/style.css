@@ -101,7 +101,7 @@ h4 {
 
 .card.notepad > textarea {
   resize: none;
-  background-color: rgba(30, 34, 49, 0.75);
+  background-color: rgba(30, 34, 49, 0.5);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
               rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border: 1px solid #ddd;
@@ -168,12 +168,16 @@ tr.sub td:first-child {
 }
 
 .card td {
-  border: 1px solid rgb(96, 103, 112);
+  /* border: 1px solid rgb(96, 103, 112); */
   font-weight: 400;
 }
 
 .card td:first-child {
   text-align: left;
+}
+
+.card table tbody tr:nth-child(odd) {
+  background-color: rgba(30, 34, 49, 0.5);
 }
 
 .card ol {
