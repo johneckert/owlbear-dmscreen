@@ -2,7 +2,7 @@ export const encounterDistance = () => {
   const encounterDistance = document.createElement('article');
   encounterDistance.classList.add('card');
   encounterDistance.innerHTML = `
-    <h2>Audible Distance</h2>
+    <h2>Encounter Distance</h2>
     <table>
       <thead>
         <tr>

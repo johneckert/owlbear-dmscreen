@@ -13,36 +13,42 @@ import { outdoorVisibility } from './tables/outdoorVisibility';
 import { audibleDistance } from './tables/audibleDistance';
 import { encounterDistance } from './tables/encounterDistance';
 import { notePad } from './tables/notePad';
-import { strength } from './tables/strength';
-import { dexterity } from './tables/dexterity';
-import { constitution } from './tables/constitution';
-import { intelligence } from './tables/intelligence';
-import { wisdom } from './tables/wisdom';
-import { charisma } from './tables/charisma';
+import { damageSeverity } from './tables/damageSeverity';
+import { lightSources } from './tables/lightSources';
+import { skills } from './tables/skills';
+import { jumping } from './tables/jumping';
+import { concentration } from './tables/concentration';
+import { thingsYouCanDo } from './tables/thingsYouCanDo';
 
 
 const container = document.createElement('div');
 container.id = 'container';
 
-container.appendChild(travelPace());
-container.appendChild(servicesAndTransportation());
-container.appendChild(notePad());
-container.appendChild(foodAndDrink());
-container.appendChild(objectHP());
-container.appendChild(objectAC());
-container.appendChild(trackingDC());
-container.appendChild(encounterDistance());
-container.appendChild(settingDC());
-container.appendChild(cover());
-container.appendChild(outdoorVisibility());
-container.appendChild(audibleDistance());
-container.appendChild(actionList());
-container.appendChild(conditions());
-container.appendChild(strength());
-container.appendChild(dexterity());
-container.appendChild(constitution());
-container.appendChild(intelligence());
-container.appendChild(wisdom());
-container.appendChild(charisma());
+const cards = [
+  settingDC,
+  cover,
+  notePad,
+  damageSeverity,
+  objectAC,
+  objectHP,
+  servicesAndTransportation,
+  jumping,
+  concentration,
+  travelPace,
+  trackingDC,
+  outdoorVisibility,
+  audibleDistance,
+  encounterDistance,
+  lightSources,
+  actionList,
+  conditions,
+  foodAndDrink,
+  skills,
+  thingsYouCanDo
+];
+
+cards.forEach(card => {
+  container.appendChild(card());
+});
 
 document.querySelector('#app').appendChild(container);
