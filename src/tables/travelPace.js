@@ -17,22 +17,22 @@ export const travelPace = () => {
         <tr>
           <td>slow</td>
           <td>200 ft.</td>
-          <td>2 mi</td>
-          <td>18 mi</td>
-          <td class="text">able ot use stealth</td>
+          <td>2 mi.</td>
+          <td>18 mi.</td>
+          <td class="text">able to use stealth</td>
         </tr>
         <tr>
           <td>normal</td>
           <td>300 ft.</td>
-          <td>3 mi</td>
+          <td>3 mi.</td>
           <td>24 mi</td>
           <td class="text">no effect</td>
         </tr>
         <tr>
           <td>fast</td>
           <td>400 ft.</td>
-          <td>4 mi</td>
-          <td>30 mi</td>
+          <td>4 mi.</td>
+          <td>30 mi.</td>
           <td class="text">-5 to passive perception</td>
         </tr>
       </tbody>

@@ -4,8 +4,8 @@ export const wisdom = () => {
   wisdom.innerHTML = `
     <h2>Wisdom</h2>
     <h3>Insight / Perception</h3>
-    <p>Wisdom (Insight) checks measure a character's ability to read body language, understand motives, and discern hidden truths. The DM might also call for an Insight check when a character attempts to determine if someone is lying.</p>
-    <p>Wisdom (Perception) checks measure a character's ability to notice things in their environment, such as hidden objects, creatures, or traps. The DM might call for a Perception check when a character is actively looking for something or when they are surprised by an event.</p>
+    <p>Insight measures a character's ability to read body language, understand motives, and discern hidden truths. The DM might also call for an Insight check when a character attempts to determine if someone is lying.</p>
+    <p>Perception checks measure a character's ability to notice things in their environment, such as hidden objects, creatures, or traps. The DM might call for a Perception check when a character is actively looking for something or when they are surprised by an event.</p>
     <table class="text">
       <thead>
         <tr>
