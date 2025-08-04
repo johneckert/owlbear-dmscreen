@@ -6,7 +6,7 @@
     "title": "DM Screen",
     "icon": "/icon.svg",
     "popover": "/",
-    "height": 600,
-    "width": 1200
+    "height": 1600,
+    "width": 2500
   }
 }

@@ -1,24 +1,36 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import { travelPace } from './tables/travelPace';
+import { servicesAndTransportation } from './tables/servicesAndtransportation';
+import { foodAndDrink } from './tables/foodAndDrink';
+import { objectHP } from './tables/objectHP';
+import { objectAC } from './tables/objectAC';
+import { trackingDC } from './tables/trackingDC';
+import { settingDC } from './tables/settingDC';
+import { actionList } from './tables/actionList';
+import { cover } from './tables/cover';
+import { conditions } from './tables/conditions';
+import { outdoorVisibility } from './tables/outdoorVisibility';
+import { audibleDistance } from './tables/audibleDistance';
+import { encounterDistance } from './tables/encounterDistance';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
 
-setupCounter(document.querySelector('#counter'))
+
+const container = document.createElement('div');
+container.id = 'container';
+
+container.appendChild(travelPace());
+container.appendChild(servicesAndTransportation());
+container.appendChild(foodAndDrink());
+container.appendChild(objectHP());
+container.appendChild(objectAC());
+container.appendChild(trackingDC());
+container.appendChild(settingDC());
+container.appendChild(actionList());
+container.appendChild(cover());
+container.appendChild(conditions());
+container.appendChild(outdoorVisibility());
+container.appendChild(audibleDistance());
+container.appendChild(encounterDistance());
+
+
+document.querySelector('#app').appendChild(container);
