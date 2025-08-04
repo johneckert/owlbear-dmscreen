@@ -1,6 +1,6 @@
 export const actionList = () => {
   const actionList = document.createElement('article');
-  actionList.classList.add('card', 'three-span');
+  actionList.classList.add('card', 'half-screen');
   actionList.innerHTML = `
     <h2>Actions</h2>
     <table class="text">

@@ -124,6 +124,10 @@ body {
   width: calc(100% - 4em) ;
 }
 
+.card.half-screen {
+  width: calc(50% - 6em);
+}
+
 .text, .text * {
   text-align: left !important;
 }
@@ -146,6 +150,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1em;
 }
 
 @media (prefers-color-scheme: light) {

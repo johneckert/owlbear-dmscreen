@@ -13,6 +13,12 @@ import { outdoorVisibility } from './tables/outdoorVisibility';
 import { audibleDistance } from './tables/audibleDistance';
 import { encounterDistance } from './tables/encounterDistance';
 import { notePad } from './tables/notePad';
+import { strength } from './tables/strength';
+import { dexterity } from './tables/dexterity';
+import { constitution } from './tables/constitution';
+import { intelligence } from './tables/intelligence';
+import { wisdom } from './tables/wisdom';
+import { charisma } from './tables/charisma';
 
 
 const container = document.createElement('div');
@@ -32,6 +38,11 @@ container.appendChild(outdoorVisibility());
 container.appendChild(audibleDistance());
 container.appendChild(actionList());
 container.appendChild(conditions());
-
+container.appendChild(strength());
+container.appendChild(dexterity());
+container.appendChild(constitution());
+container.appendChild(intelligence());
+container.appendChild(wisdom());
+container.appendChild(charisma());
 
 document.querySelector('#app').appendChild(container);

@@ -1,7 +1,6 @@
 export const conditions = () => {
   const conditions = document.createElement('article');
-  conditions.classList.add('card');
-  conditions.classList.add('three-span');
+  conditions.classList.add('card', 'half-screen');
   conditions.innerHTML = `
     <h2>Conditions</h2>
     <table class="text">

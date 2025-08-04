@@ -1,3 +1,5 @@
+import { downloadFile } from '../utils.js';
+
 const EMAIL = "johnteckert@gmail.com";
 
 export const notePad = () => {
@@ -6,16 +8,35 @@ export const notePad = () => {
   notePad.innerHTML = `
     <h2>Notes</h2>
     <textarea id="notes" rows="10" cols="30" placeholder="Write your notes here..."></textarea>
-    <button id="send-notes">Send Notes</button>
+    <div class="button-container">
+      <button id="clear-button">Clear</button>
+      <button id="download-button">Download</button>
+    </div>
   `;
 
-  const sendButton = notePad.querySelector('#send-notes');
-  sendButton.addEventListener('click', () => {
-    const notes = notePad.querySelector('textarea').value;
-    if (notes) {
-      window.open(`mailto:${EMAIL}?subject=DM Screen Notes&body=${encodeURIComponent(notes)}`);
-    }
+  const downloadButton = notePad.querySelector('#download-button');
+  const clearButton = notePad.querySelector('#clear-button');
+
+  downloadButton.addEventListener('click', () => {
+    const fileData = [
+      new Date().toLocaleDateString(),
+      ' ',
+      new Date().toLocaleTimeString(),
+      '\n\n',
+      notePad.querySelector('textarea').value
+    ];
+    const file = new File(fileData, 'note.txt', {
+      type: 'text/plain',
+    });
+    downloadFile(file);
+  });
+
+  clearButton.addEventListener('click', () => {
+    const notes = notePad.querySelector('textarea');
+    notes.value = '';
+    notes.focus();
   });
 
   return notePad;
 }
+
