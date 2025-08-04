@@ -1,9 +1,9 @@
 export const actionList = () => {
   const actionList = document.createElement('article');
-  actionList.classList.add('card');
+  actionList.classList.add('card', 'three-span');
   actionList.innerHTML = `
     <h2>Actions</h2>
-    <table>
+    <table class="text">
       <thead>
         <tr>
           <th>Action</th>
@@ -61,7 +61,7 @@ export const actionList = () => {
         </tr>
         <tr>
           <td>Use an object</td>
-          <tdYou use an object that requires an action to use.</td>
+          <td>You use an object that requires an action to use.</td>
         </tr>
         <tr>
           <td>Use a special ability</td>

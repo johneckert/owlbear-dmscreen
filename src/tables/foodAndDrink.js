@@ -1,5 +1,6 @@
 export const foodAndDrink = () => {
   const foodAndDrink = document.createElement('article');
+  foodAndDrink.classList.add('card');
   foodAndDrink.innerHTML = `
     <h2>Food & Drink</h2>
     <table>

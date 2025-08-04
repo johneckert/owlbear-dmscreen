@@ -1,9 +1,10 @@
 export const conditions = () => {
   const conditions = document.createElement('article');
   conditions.classList.add('card');
+  conditions.classList.add('three-span');
   conditions.innerHTML = `
     <h2>Conditions</h2>
-    <table>
+    <table class="text">
       <thead>
         <tr>
           <th>Condition</th>

@@ -12,7 +12,7 @@ import { conditions } from './tables/conditions';
 import { outdoorVisibility } from './tables/outdoorVisibility';
 import { audibleDistance } from './tables/audibleDistance';
 import { encounterDistance } from './tables/encounterDistance';
-
+import { notePad } from './tables/notePad';
 
 
 const container = document.createElement('div');
@@ -20,17 +20,18 @@ container.id = 'container';
 
 container.appendChild(travelPace());
 container.appendChild(servicesAndTransportation());
+container.appendChild(notePad());
 container.appendChild(foodAndDrink());
 container.appendChild(objectHP());
 container.appendChild(objectAC());
 container.appendChild(trackingDC());
+container.appendChild(encounterDistance());
 container.appendChild(settingDC());
-container.appendChild(actionList());
 container.appendChild(cover());
-container.appendChild(conditions());
 container.appendChild(outdoorVisibility());
 container.appendChild(audibleDistance());
-container.appendChild(encounterDistance());
+container.appendChild(actionList());
+container.appendChild(conditions());
 
 
 document.querySelector('#app').appendChild(container);

@@ -7,10 +7,16 @@ export const travelPace = () => {
       <thead>
         <tr>
           <th>Pace</th>
-          <th>distance per minute</th>
-          <th>distance per hour</th>
-          <th>distance per day</th>
-          <th>effect</th>
+          <th colspan="3">Distance per</th>
+          <th class="text">Effect</th>
+
+        </tr>
+        <tr>
+          <th></th>
+          <th>minute</th>
+          <th>hour</th>
+          <th>day</th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -19,21 +25,21 @@ export const travelPace = () => {
           <td>200 ft.</td>
           <td>2 mi</td>
           <td>18 mi</td>
-          <td>able ot use stealth</td>
+          <td class="text">able ot use stealth</td>
         </tr>
         <tr>
           <td>normal</td>
           <td>300 ft.</td>
           <td>3 mi</td>
           <td>24 mi</td>
-          <td>no effect</td>
+          <td class="text">no effect</td>
         </tr>
         <tr>
           <td>fast</td>
           <td>400 ft.</td>
           <td>4 mi</td>
           <td>30 mi</td>
-          <td>-5 penalty to passive Wisdom (Perception) scores</td>
+          <td class="text">-5 penalty to passive Wisdom (Perception) scores</td>
         </tr>
       </tbody>
     </table>

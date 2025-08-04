@@ -13,15 +13,15 @@ export const cover = () => {
       <tbody>
         <tr>
           <td>Half cover</td>
-          <td>+2 to AC and Dexterity saving throws</td>
+          <td class="text">+2 to AC and Dexterity saving throws</td>
         </tr>
         <tr>
           <td>Three-quarters cover</td>
-          <td>+5 to AC and Dexterity saving throws</td>
+          <td class="text">+5 to AC and Dexterity saving throws</td>
         </tr>
         <tr>
           <td>Full cover</td>
-          <td>Cannot be targeted directly by an attack or spell</td>
+          <td class="text">Cannot be targeted directly by an attack or spell</td>
         </tr>
       </tbody>
     </table>

@@ -21,11 +21,11 @@ export const outdoorVisibility = () => {
         </tr>
         <tr>
           <td>Fog</td>
-          <td>100 to 300 ft.</td>
+          <td>100-300 ft.</td>
         </tr>
         <tr>
           <td>From height</td>
-          <td>x 20</td>
+          <td>x20</td>
         </tr>
       </tbody>
     </table>
