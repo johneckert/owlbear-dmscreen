@@ -79,7 +79,25 @@ h4 {
   width: calc(50% - 5em);
 }
 
+.card.two-column {
+  width: calc((100% / 3) * 2 - 6em);
+}
 
+.card.three-column { 
+  width: 100%;
+}
+
+.tables-wide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.tables-wide table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0.5rem;
+}
 
 .card.notepad > textarea {
   resize: none;

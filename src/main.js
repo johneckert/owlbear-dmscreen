@@ -31,9 +31,9 @@ const cards = [
   damageSeverity,
   objectAC,
   objectHP,
-  servicesAndTransportation,
   jumping,
   concentration,
+  thingsYouCanDo,
   travelPace,
   trackingDC,
   outdoorVisibility,
@@ -43,8 +43,8 @@ const cards = [
   actionList,
   conditions,
   foodAndDrink,
-  skills,
-  thingsYouCanDo
+  servicesAndTransportation,
+  skills
 ];
 
 cards.forEach(card => {
