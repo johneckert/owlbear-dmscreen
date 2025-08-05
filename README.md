@@ -1,6 +1,6 @@
 # Owlbear Rodeo DM Screen
 A basic DM screen for D&D 5e. It includes various tables and information to assist the Dungeon Master during gameplay.
-![Owlbear Rodeo DM Screen](https://raw.githubusercontent.com/johneckert/dm-screen/docs/header.png)
+![Owlbear Rodeo DM Screen](docs/header.png)
 
 ## Installing
 The extension can be installed from the [store page](https://marketplace.owlbear.rodeo/extension/johneckert/dm-screen).
