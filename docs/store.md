@@ -2,7 +2,7 @@
 title: DM Screen
 description: A digital DM screen for Dungeons & Dragons 5th Edition.
 author: John Eckert
-image: /images/dm-screen.png
+image: https://raw.githubusercontent.com/johneckert/owlbear-dmscreen/main/docs/header.png
 icon: /images/icon.svg
 tags:
   - RPG
