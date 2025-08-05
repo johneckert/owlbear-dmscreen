@@ -1,6 +1,6 @@
 export const travelPace = () => {
   const travelPace = document.createElement('article');
-  travelPace.classList.add('card');
+  travelPace.classList.add('card', 'two-column');
   travelPace.innerHTML = `
     <h2>Travel Pace</h2>
     <table>

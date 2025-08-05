@@ -80,7 +80,7 @@ h4 {
 }
 
 .card.two-column {
-  width: calc((100% / 3) * 2 - 6em);
+  width: calc((100% / 3) * 2 - 5em);
 }
 
 .card.three-column { 
