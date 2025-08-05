@@ -12,7 +12,6 @@ import { conditions } from './tables/conditions';
 import { outdoorVisibility } from './tables/outdoorVisibility';
 import { audibleDistance } from './tables/audibleDistance';
 import { encounterDistance } from './tables/encounterDistance';
-import { notePad } from './tables/notePad';
 import { damageSeverity } from './tables/damageSeverity';
 import { lightSources } from './tables/lightSources';
 import { skills } from './tables/skills';
