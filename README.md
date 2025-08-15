@@ -25,5 +25,8 @@ yarn build
 ## License
 GNU GPL-3.0
 
+## Attribution
+This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution.
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find a bug or have a feature request.
