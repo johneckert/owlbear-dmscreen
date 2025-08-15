@@ -18,6 +18,7 @@ import { skills } from './tables/skills';
 import { jumping } from './tables/jumping';
 import { concentration } from './tables/concentration';
 import { thingsYouCanDo } from './tables/thingsYouCanDo';
+import { attribution } from './tables/attribution';
 
 
 const container = document.createElement('div');
@@ -42,7 +43,8 @@ const cards = [
   conditions,
   foodAndDrink,
   servicesAndTransportation,
-  skills
+  skills,
+  attribution,
 ];
 
 cards.forEach(card => {

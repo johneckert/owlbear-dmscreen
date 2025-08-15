@@ -188,6 +188,28 @@ tr.sub td:first-child {
   text-align: left !important;
 }
 
+.card.fine-print {
+  font-size: 0.8rem;
+  line-height: 1.25;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.fine-print p {
+  padding: 1em;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+.card.fine-print a {
+  color: rgb(238, 153, 255);
+  text-decoration: none;
+}
+.card.fine-print a:hover {
+  text-decoration: underline;
+}
+
 button {
   display: inline-flex;
   align-items: center;
