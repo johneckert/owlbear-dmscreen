@@ -2,9 +2,11 @@
   "name": "DM Screen",
   "version": "1.0.1",
   "manifest_version": 1,
+  "author": "John Eckert",
+  "homepage_url": "https://github.com/johneckert/owlbear-dmscreen",
+  "description": "Quickly reference tables from the D&D 5e dm screen while running your game.",
   "action": {
     "title": "DM Screen",
-    "description": "Quickly reference tables from the D&D 5e dm screen while running your game.",
     "icon": "/icon.svg",
     "popover": "/",
     "height": 1600,
