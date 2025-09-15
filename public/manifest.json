@@ -4,6 +4,7 @@
   "manifest_version": 1,
   "action": {
     "title": "DM Screen",
+    "description": "Quickly reference tables from the D&D 5e dm screen while running your game.",
     "icon": "/icon.svg",
     "popover": "/",
     "height": 1600,
